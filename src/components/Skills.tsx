@@ -24,12 +24,12 @@ const Skills = () => {
       <BigContainer>
         <ContainerCards>
           <BigSkillCard
-            title="2D and 3D game development"
-            description="Skilled in writing C++ code and creating environment, scripts in Unreal Engine"
-          />
-          <BigSkillCard
             title="Apps using Next.js"
             description="Experienced in creating websites using Next.js, React and TypeScript"
+          />
+          <BigSkillCard
+            title="2D and 3D game development"
+            description="Skilled in writing C++ code and creating environment, scripts in Unreal Engine"
           />
         </ContainerCards>
       </BigContainer>
