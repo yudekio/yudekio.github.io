@@ -1,15 +1,15 @@
-import { styled } from "styled-components"
+import { styled } from "styled-components";
 
-import { BsDisplay } from "react-icons/bs"
-import { FiGithub } from "react-icons/fi"
+import { BsDisplay } from "react-icons/bs";
+import { FiGithub } from "react-icons/fi";
 interface IProjectCard {
-  title: any
-  image: any
-  tag: string
-  description: string
-  year: string
-  demoLink: string
-  githubLink: string
+  title: any;
+  image: any;
+  tag: string;
+  description: string;
+  year: string;
+  demoLink: string;
+  githubLink: string;
 }
 
 const ProjectCard = (props: IProjectCard) => {
@@ -47,8 +47,8 @@ const ProjectCard = (props: IProjectCard) => {
       </ContainerDesc>
       <ImageProject src={props.image} />
     </Container>
-  )
-}
+  );
+};
 
 const Container = styled.div`
   display: grid;
@@ -67,7 +67,7 @@ const Container = styled.div`
     text-align: center;
     gap: 1.2rem;
   }
-`
+`;
 
 const ContainerDesc = styled.div`
   display: flex;
@@ -80,18 +80,18 @@ const ContainerDesc = styled.div`
     padding-right: 0;
     align-items: center;
   }
-`
+`;
 const ContainerIcons = styled.div`
   display: flex;
   gap: 0.6rem;
   font-size: 1.8rem;
   margin-top: auto;
-`
+`;
 
 const Header = styled.h1`
   font-weight: bold;
   font-size: 1.4rem;
-`
+`;
 
 const ImageProject = styled.img`
   border-radius: 0.5rem;
@@ -104,11 +104,11 @@ const ImageProject = styled.img`
     place-items: center;
     width: 100%;
   }
-`
+`;
 
 const ContainerTagYear = styled.div`
   color: #ffc0cb;
   font-weight: 500;
-`
+`;
 
-export default ProjectCard
+export default ProjectCard;

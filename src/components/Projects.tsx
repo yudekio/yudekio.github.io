@@ -56,7 +56,7 @@ const Projects = () => {
       description="Online store with great sorting. Using Vite, React and Tailwind."
       image={MoonMarketScreen}
       demoLink="https://moon-market.netlify.app"
-      githubLink="https://github.com/andriiprokhor/moon-market"
+      githubLink="https://github.com/yudekio/moonmarket"
     />,
 
     <ProjectCard
