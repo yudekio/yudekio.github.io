@@ -13,8 +13,7 @@ const Intro = () => {
         <Links></Links>
         <Description>
           Hey! 👋 <br /> I'm a Software engineer. 👨‍💻 <br />I like everything
-          related to game/web development, 3D modeling, problem solving and math
-          ( ﾉ ﾟｰﾟ)ﾉ
+          related to web development, problem solving, 3D and math ( ﾉ ﾟｰﾟ)ﾉ
         </Description>
       </SideContainer>
     </>

@@ -6,7 +6,7 @@ import {
   AiFillMail,
 } from "react-icons/ai";
 
-import { FaItchIo } from "react-icons/fa6";
+// import { FaItchIo } from "react-icons/fa6";
 
 const Links = () => {
   return (
@@ -37,14 +37,14 @@ const Links = () => {
         >
           <AiFillInstagram />
         </a>
-        <a
+        {/* <a
           href="https://yudekio.itch.io"
           className="hovertext"
           target="_blank"
           data-hover="itch.io"
         >
           <FaItchIo />
-        </a>
+        </a> */}
         <a
           href="mailto:andriiprokhordev@gmail.com"
           className="hovertext"

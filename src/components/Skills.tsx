@@ -8,9 +8,6 @@ const Skills = () => {
     <Container>
       <Header>Skills</Header>
       <ContainerSkill>
-        <SkillCard text="C++" />
-        <SkillCard text="UE" />
-        <SkillCard text="Blender" />
         <SkillCard text="JavaScript" />
         <SkillCard text="TypeScript" />
 
@@ -18,13 +15,16 @@ const Skills = () => {
         <SkillCard text="Next.js" />
         <SkillCard text="HTML" />
         <SkillCard text="CSS" />
+        <SkillCard text="C++" />
+        <SkillCard text="UE" />
+        <SkillCard text="Blender" />
 
         <SkillItem></SkillItem>
       </ContainerSkill>
       <BigContainer>
         <ContainerCards>
           <BigSkillCard
-            title="Apps using Next.js"
+            title="Apps using React"
             description="Experienced in creating websites using Next.js, React and TypeScript"
           />
           <BigSkillCard
