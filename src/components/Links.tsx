@@ -33,7 +33,7 @@ const Links = () => {
           className="hovertext"
           href="https://www.instagram.com/yudekio"
           target="_blank"
-          data-hover="my inst <3"
+          data-hover="my inst"
         >
           <AiFillInstagram />
         </a>

@@ -12,8 +12,8 @@ const Intro = () => {
         <NameSurname>Andrii Prokhor</NameSurname>
         <Links></Links>
         <Description>
-          Hey! 👋 <br /> I'm a Software engineer. 👨‍💻 <br />I like everything
-          related to web development, problem solving, 3D and math ( ﾉ ﾟｰﾟ)ﾉ
+          Software engineer | Data scientist
+          <br />
         </Description>
       </SideContainer>
     </>

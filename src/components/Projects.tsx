@@ -4,10 +4,11 @@ import { styled } from "styled-components";
 import ProjectCard from "./ProjectCard";
 
 import StreamStarScreen from "../../public/streamstar-screen.png";
-import PortfolioScreen from "../../public/portfolio-screen.png";
+import PortfolioScreen from "../../public/dna-screen.png";
 import YoriScreen from "../../public/yori-screen.png";
-import SnowyStachScreen from "../../public/snowystack.png";
+import SnowyStachScreen from "../../public/snowflake.png";
 import MoonMarketScreen from "../../public/moonmarket-screen.png";
+import HNWAnalysisScreen from "../../public/hnw-analysis-screen.png";
 
 const Projects = () => {
   const allProjects = [
@@ -34,26 +35,35 @@ const Projects = () => {
         }
         tag="website"
         year="2023"
-        description="Modern streaming platform with cool design. Using Next.js, TypeScript, MongoDB and Tailwind."
+        description="Streaming science platform. Technologies: Next.js, TypeScript, React, MongoDB, Tailwind and bcrypt library."
         image={StreamStarScreen}
-        demoLink="https://streamstar.vercel.app"
+        demoLink="https://yudekio.github.io/streamstar/"
         githubLink="https://github.com/yudekio/streamstar"
       />
     </StreamStarContainer>,
     <ProjectCard
+      title="Dataset analysis"
+      tag="data research"
+      year="2024"
+      description="Conducting an analysis between height and weight (Pandas, Matplotlib, Seaborn, Scikit-learn, NumPy)."
+      image={HNWAnalysisScreen}
+      demoLink="https://github.com/yudekio/height-and-weight-analysis/blob/main/height-and-weight.ipynb"
+      githubLink="https://github.com/yudekio/height-and-weight-analysis"
+    />,
+    <ProjectCard
       title="Portfolio"
       tag="website"
       year="2023"
-      description="My web-portfolio with glass design. Vite, React, TypeScript and styled-components."
+      description="Website portfolio using TypeScript, React, Vite, and styled-components."
       image={PortfolioScreen}
       demoLink="/"
-      githubLink="https://github.com/yudekio/streamstar"
+      githubLink="https://github.com/yudekio/yudekio.github.io"
     />,
     <ProjectCard
       title="Moon Market"
       tag="website"
       year="2023"
-      description="Online store with great sorting. Using Vite, React and Tailwind."
+      description="Marketplace platform built with React, TypeScript, Tailwind CSS and Vite. Implemented items API."
       image={MoonMarketScreen}
       demoLink="https://moon-market.netlify.app"
       githubLink="https://github.com/yudekio/moonmarket"
@@ -63,16 +73,16 @@ const Projects = () => {
       title="Yori"
       tag="website"
       year="2023"
-      description="Yori 🍥 - recipe catalog. API, SCSS, Parcel, MVC practice."
+      description="Recipe catalog built using JavaScript and styled with SCSS that implements MVC design pattern. With public API."
       image={YoriScreen}
       demoLink="https://yori-recipes.netlify.app"
-      githubLink="https://github.com/andriiprokhor/yori"
+      githubLink="https://github.com/yudekio/yori"
     />,
     <ProjectCard
       title="Snowy Stack"
       tag="C++ game"
       year="2023"
-      description="Game 2D using SFML library. All UI designed with Figma and GIMP."
+      description="Simple 2D game with great gameplay and animations. Using C++, SFML library, Figma, and GIMP."
       image={SnowyStachScreen}
       demoLink="https://github.com/yudekio/snowystack"
       githubLink="https://github.com/yudekio/snowystack"
@@ -99,7 +109,7 @@ const Projects = () => {
       <ButtonMore>
         {" "}
         <button onClick={toggleProjects}>
-          {showAllProjects ? "Hide" : "More..."}
+          {showAllProjects ? "Hide" : "Show more..."}
         </button>
       </ButtonMore>
     </Container>
