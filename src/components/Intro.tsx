@@ -12,7 +12,7 @@ const Intro = () => {
         <NameSurname>Andrii Prokhor</NameSurname>
         <Links></Links>
         <Description>
-          Software engineer | Data scientist
+          Software engineer
           <br />
         </Description>
       </SideContainer>
