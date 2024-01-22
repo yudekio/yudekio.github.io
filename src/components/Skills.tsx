@@ -9,23 +9,23 @@ const Skills = () => {
       <Header>Skills</Header>
       <ContainerSkill>
         <SkillCard text="Python" />
+        <SkillCard text="SQL" />
         <SkillCard text="TypeScript" />
         <SkillCard text="JavaScript" />
-        <SkillCard text="SQL" />
         <SkillCard text="React" />
-        <SkillCard text="Node.js" />
+        <SkillCard text="Flask" />
+        <SkillCard text="C++" />
         <SkillCard text="Statistic" />
         <SkillCard text="HTML" />
         <SkillCard text="CSS" />
-        <SkillCard text="C++" />
 
         <SkillItem></SkillItem>
       </ContainerSkill>
       <BigContainer>
         <ContainerCards>
           <BigSkillCard
-            title="Developing apps using TypeScript and Python"
-            description="Created and designed many different websites with frameworks such as React, Next.js, Django. I worked with REST API and created programs in Python. I took courses in C++ at my university.   "
+            title="Developing apps using Python and TypeScript"
+            description="Created and designed many different websites with frameworks such as React, Next.js, Flask. I worked with REST API and created programs in Python. I took courses in C++ at my university.   "
           />
           <BigSkillCard
             title="Data analysis"
