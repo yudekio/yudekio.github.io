@@ -46,7 +46,7 @@ const Links = () => {
           <FaItchIo />
         </a> */}
         <a
-          href="mailto:andriiprokhordev@gmail.com"
+          href="mailto:andrii.prkhr@gmail.com"
           className="hovertext"
           data-hover="email"
         >

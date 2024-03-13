@@ -8,28 +8,27 @@ const Skills = () => {
     <Container>
       <Header>Skills</Header>
       <ContainerSkill>
+        <SkillCard text="JavaScript" />
+        <SkillCard text="TypeScript" />
+        <SkillCard text="React" />
+        <SkillCard text="React Native" />
+        <SkillCard text="Vue.js" />
+        <SkillCard text="HTML5" />
+        <SkillCard text="CSS3" />
         <SkillCard text="Python" />
         <SkillCard text="SQL" />
-        <SkillCard text="TypeScript" />
-        <SkillCard text="JavaScript" />
-        <SkillCard text="React" />
-        <SkillCard text="Flask" />
-        <SkillCard text="C++" />
-        <SkillCard text="Statistic" />
-        <SkillCard text="HTML" />
-        <SkillCard text="CSS" />
 
         <SkillItem></SkillItem>
       </ContainerSkill>
       <BigContainer>
         <ContainerCards>
           <BigSkillCard
-            title="Developing apps using Python and TypeScript"
-            description="Created and designed many different websites with frameworks such as React, Next.js, Flask. I worked with REST API and created programs in Python. I took courses in C++ at my university.   "
+            title="Developing web applications"
+            description="Created and designed many different websites with frameworks such as React, Next.js, Vue.js. I worked with RESTful API and created programs in React Native. I took courses in C++/SQL at my university."
           />
           <BigSkillCard
-            title="Data analysis"
-            description="During my university studies, I researched and visualized data using tools such as Excel, Power BI, and Python. Also I have experience in SQL/NoSQL databases such as PostgreSQL, MySQL, MongoDB."
+            title="Designing user interfaces"
+            description="During my university studies, I delved into designing user interfaces, leveraging tools such as Figma, GIMP. I have hands-on experience with front-end development."
           />
         </ContainerCards>
       </BigContainer>

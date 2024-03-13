@@ -8,6 +8,7 @@ import PortfolioScreen from "../../public/dna-screen.png";
 import YoriScreen from "../../public/yori-screen.png";
 import SnowyStachScreen from "../../public/snowflake.png";
 import MoonMarketScreen from "../../public/moonmarket-screen.png";
+import TechStoreScreen from "../../public/techstore-screen.png";
 import HNWAnalysisScreen from "../../public/hnw-analysis-screen.png";
 
 const Projects = () => {
@@ -35,29 +36,30 @@ const Projects = () => {
         }
         tag="website"
         year="2023"
-        description="Streaming science platform. Technologies: Next.js, TypeScript, React, MongoDB, Tailwind and bcrypt library."
+        description="Streaming scientific platform. Technologies: Next.js, TypeScript, React, MongoDB, Tailwind, bcrypt, and JWT."
         image={StreamStarScreen}
         demoLink="https://yudekio.github.io/streamstar/"
         githubLink="https://github.com/yudekio/streamstar"
       />
     </StreamStarContainer>,
+
     <ProjectCard
-      title="Dataset analysis"
-      tag="data research"
-      year="2024"
-      description="Conducting an analysis between height and weight (Pandas, Matplotlib, Seaborn, Scikit-learn, NumPy)."
-      image={HNWAnalysisScreen}
-      demoLink="https://github.com/yudekio/height-and-weight-analysis/blob/main/height-and-weight.ipynb"
-      githubLink="https://github.com/yudekio/height-and-weight-analysis"
-    />,
-    <ProjectCard
-      title="Portfolio"
+      title="Portfolio Website"
       tag="website"
       year="2023"
-      description="Website portfolio using TypeScript, React, Vite, and styled-components."
+      description="Built using TypeScript, React, Vite, and styled-components. Implemented a responsive layout."
       image={PortfolioScreen}
       demoLink="/"
       githubLink="https://github.com/yudekio/yudekio.github.io"
+    />,
+    <ProjectCard
+      title="TechStore"
+      tag="website"
+      year="2024"
+      description="React, Redux, Bootstrap, and Material UI. Connected MongoDB. RESTful API with Node.js and Express."
+      image={TechStoreScreen}
+      demoLink="https://github.com/yudekio/techstore"
+      githubLink="https://github.com/yudekio/techstore"
     />,
     <ProjectCard
       title="Moon Market"
@@ -73,7 +75,7 @@ const Projects = () => {
       title="Yori"
       tag="website"
       year="2023"
-      description="Recipe catalog built using JavaScript and styled with SCSS that implements MVC design pattern. With public API."
+      description="Recipe catalog built using JavaScript and styled with SCSS that implements MVC design pattern. Used public API."
       image={YoriScreen}
       demoLink="https://yori-recipes.netlify.app"
       githubLink="https://github.com/yudekio/yori"
@@ -86,6 +88,15 @@ const Projects = () => {
       image={SnowyStachScreen}
       demoLink="https://github.com/yudekio/snowystack"
       githubLink="https://github.com/yudekio/snowystack"
+    />,
+    <ProjectCard
+      title="Dataset analysis"
+      tag="data research"
+      year="2024"
+      description="Conducting an analysis between height and weight (Pandas, Matplotlib, Seaborn, Scikit-learn, NumPy)."
+      image={HNWAnalysisScreen}
+      demoLink="https://github.com/yudekio/height-and-weight-analysis/blob/main/height-and-weight.ipynb"
+      githubLink="https://github.com/yudekio/height-and-weight-analysis"
     />,
   ];
 
